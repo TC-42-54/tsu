@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "moduleResolution": "node",
+    "inlineSources": true,
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "@tsu/core": [
+        "./packages/core"
+      ],
+      "@tsu/array": [
+        "./packages/array"
+      ],
+      "@tsu/number": [
+        "./packages/number"
+      ],
+      "@tsu/string": [
+        "./packages/string"
+      ],
+      "@tsu/object": [
+        "./packages/object"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "**/*test.ts",
+    ".vscode"
+  ],
+  "include": [
+    "packages/**/*"
+  ]
+}

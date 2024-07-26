@@ -1,0 +1,18 @@
+{
+  "name": "@tsu/string",
+  "version": "0.0.1",
+  "description": "The string set of utils/helpers of the tsu library",
+  "main": "index.js",
+  "author": "Thomas Chezieres <t.chezieres@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "test": "vitest",
+    "postinstall": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "5.5.4",
+    "vitest": "^2.0.4"
+  }
+}

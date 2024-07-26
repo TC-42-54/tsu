@@ -1,0 +1,12 @@
+{
+  "name": "@tsu/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tsu/array": "0.0.1",
+    "@tsu/number": "0.0.1",
+    "@tsu/string": "0.0.1",
+    "@tsu/object": "0.0.1"
+  }
+}

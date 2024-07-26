@@ -1,0 +1,19 @@
+{
+  "name": "tsu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "lerna": "^8.1.7",
+    "typescript": "^5.5.4"
+  },
+  "private": true,
+  "dependencies": {
+    "@tsu/array": "0.0.1",
+    "@tsu/number": "0.0.1",
+    "@tsu/string": "0.0.1",
+    "@tsu/object": "0.0.1",
+    "@tsu/core": "0.0.1"
+  }
+}
